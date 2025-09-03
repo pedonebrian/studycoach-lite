@@ -10,7 +10,8 @@ export default function Home() {
 
       <div className="grid gap-3">
         <Link className="underline" href="/learn">→ Go to Learner Flow</Link>
-        <a className="underline" href="https://github.com/your-username/studycoach-lite" target="_blank">Repo</a>
+        <Link className="underline" href="/lessons">→ See Saved Lessons</Link>
+        <a className="underline" href="https://github.com/pedonebrian/studycoach-lite" target="_blank">Repo</a>
       </div>
 
       <section className="mt-8">
