@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local data / mock seeds
+.data/
+
+# Storybook build output
+/storybook-static
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+
+# VSCode
+.vscode/
+*.code-workspace
+
